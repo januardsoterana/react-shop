@@ -1,0 +1,326 @@
+$font-color: #42413D;
+$primary-color: #FCDB30;
+$body-bg: #F9F9F9;
+$white: #fff;
+$black: #000;
+
+
+.banner {
+    margin: 0 0 50px;
+
+    @media only screen and (max-width: 767px) {
+        margin: 0 0 30px;
+    }
+
+    img {
+        width: 100%;
+        vertical-align: top;
+
+        @media only screen and (max-width: 560px) {
+            height: 229px;
+            object-fit: cover;
+        }
+    }
+}
+
+.main {
+    padding: 0 0 90px;
+
+    .container {
+        max-width: 1295px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title {
+        font-size: 42px;
+        line-height: 51px;
+        font-family: 'D-DINCondensed';
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 0 45px;
+        letter-spacing: 2px;
+    
+        @media only screen and (max-width: 767px) {
+            font-size: 22px;
+            line-height: 30px;
+            margin: 0 0 15px;
+            text-align: left;
+        }
+    }
+    
+    .location-col-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px 70px;
+    
+        @media only screen and (max-width: 1199px) {
+            display: block;
+            margin: 0 0 23px;
+        }
+    
+        .location-col-left {
+            flex-basis: 0;
+            flex-grow: 1;
+            padding: 0 15px;
+    
+            @media only screen and (max-width: 1199px) {
+                padding: 0;
+                width: 100%;
+                margin: 0 0 15px;
+            }
+        }
+    
+        .location-col-rigt {
+            // max-width: 436px
+            width: 33.333%;
+            padding: 0 15px;
+    
+            @media only screen and (max-width: 1199px) {
+                padding: 0;
+                width: 100%;
+            }
+        }
+    
+        .location-col-inner {
+            padding: 22px 35px 32px;
+            background: $white;
+    
+            @media only screen and (max-width: 767px) {
+                padding: 0;
+                background: none;
+            }
+        }
+    }
+    
+    .address-title {
+        font-size: 20px;
+        line-height: 45px;
+        font-family: 'MrsEavesSmallCaps';
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 0 0 13px;
+    
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+    
+    .address-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px 20px;
+    
+        @media only screen and (max-width: 767px) {
+            margin: 0 0 20px;
+        }
+    
+        .address-col-left {
+            flex-basis: 0;
+            flex-grow: 1;
+            padding: 0 12px;
+    
+            @media only screen and (max-width: 767px) {
+                padding: 0;
+            }
+        }
+    
+        .address-col-right {
+            max-width: 238px;
+            width: 100%;
+            padding: 0 12px;
+            // border: 1px solid #d1d1d1;
+    
+            @media only screen and (max-width: 767px) {
+                max-width: 100%;
+                padding: 0;
+            }
+    
+            .map-holder {
+                border-top: 1px solid #d1d1d1;
+                height: 100%;
+    
+                @media only screen and (max-width: 560px) {
+                    display: none;
+                }
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    
+    .address-inner-wrapper {
+        background: #F7F8F9;
+        padding: 30px 35px;
+        border-top: 1px solid #d1d1d1;
+    
+        @media only screen and (max-width: 560px) {
+            padding: 15px;
+            background: #fff;
+        }
+    
+        address {
+            font-size: 18px;
+            line-height: 28px;
+            font-style: normal;
+            margin: 0 0 25px;
+    
+            @media only screen and (max-width: 560px) {
+                font-size: 15px;
+            }
+        }
+    
+        .directional-info {
+            display: flex;
+            justify-content: space-between;
+    
+            .away-distance {
+                color: #767676;
+                font-size: 15px;
+                line-height: 22px;
+            }
+    
+            .get-direction {
+                display: flex;
+                align-items: center;
+            }
+    
+            .link-get-direction {
+                font-size: 15px;
+                line-height: 22px;
+                text-decoration: underline;
+                color: $font-color;
+                margin-left: 10px;
+            }
+        }
+    
+        .address-additional-info {
+            padding-top: 14px;
+            border-top: 1px solid #d1d1d1;
+            margin-top: 27px;
+    
+            .store-info-section{
+                margin-bottom: 15px;
+                .store-info-title{
+                    font-size: 18px;
+                    line-height: 30px;
+                    font-weight: 500;
+                    margin: 0;
+                }
+    
+                p {margin: 0;}
+            }
+        }
+    }
+    
+    .contact-info-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px;
+    
+        @media only screen and (max-width: 767px) {
+            display: block;
+            margin: 0;
+        }
+    
+        .contact-info-col {
+            width: 50%;
+            padding: 0 12px;
+    
+            @media only screen and (max-width: 560px) {
+                width: 100%;
+                padding: 0;
+                margin: 0 0 8px;
+            }
+        }
+    
+        .contact-info-title {
+            font-size: 18px;
+            line-height: 45px;
+            font-weight: 500;
+            margin: 0 0 15px;
+    
+            @media only screen and (max-width: 560px) {
+                display: none;
+            }
+        }
+    
+        .link-contact-info {
+            background: #F7F8F9;
+            padding: 28px 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: $font-color;
+            font-size: 20px;
+            line-height: 28px;
+            border-top: 1px solid #d1d1d1;
+    
+            @media only screen and (max-width: 560px) {
+                background: #fff;
+                padding: 14px 20px 12px;
+            }
+        }
+    }
+    
+    .opening-hour-holder {
+        background: $white;
+        padding: 22px 35px;
+        height: 100%;
+    
+        .opening-hour-title {
+            font-size: 20px;
+            line-height: 45px;
+            font-family: "MrsEavesSmallCaps";
+            font-weight: normal;
+            text-transform: uppercase;
+            margin: 0 0 13px;
+        }
+    }
+    
+    .opening-hour-list {
+        margin: 0;
+        padding: 20px 0;
+        list-style: none;
+        font-size: 18px;
+        line-height: 38px;
+        border-top: 1px solid #d1d1d1;
+    
+        li {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .btn-holder {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-primary {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #54575A;
+        background: #FCDB30;
+        padding: 24px 20px 20px;
+        min-width: 378px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+
+        &:active, &.active, &.focus, &:focus {
+            outline: none;
+            box-shadow: none !important;
+        }
+    }
+
+    @media only screen and (max-width: 560px) {
+        padding: 0 0 32px;
+    }
+}
+

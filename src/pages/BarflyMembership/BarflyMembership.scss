@@ -1,0 +1,140 @@
+
+.light-bg {
+  background: #F9F9F9;
+}
+
+.checkbox-container {
+  margin-top: 40px;
+
+  .confirmation-section {
+    margin-bottom: 20px;
+  }
+
+  .checkbox-section {
+    display: flex;
+    align-items: center;
+
+    .checkbox {
+
+    }
+
+    p {
+      color: #42413D;
+    }
+  }
+}
+
+#store-choose-dialog {
+  .store-item {
+    padding-bottom: 19px;
+
+    &:not(:first-child) {
+      border-top: 1px solid #D1D1D1;
+    }
+
+    .store-item-inner {
+      padding: 15px 16px 45px;
+      background: #F9F9F9;
+
+      button p {
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #54575A;
+      }
+
+      .store-title-row {
+        .store-title {
+          font-family: AvenirNext;
+          font-size: 15px;
+          line-height: 22px;
+          color: #42413D;
+          margin-left: 10px;
+        }
+
+        button {
+          padding: 15px 30px;
+          background: #FFDD30;
+        }
+      }
+
+      .store-location-row {
+        margin: 22px 0 18px;
+
+        .store-location {
+          font-family: AvenirNext;
+          font-size: 13px;
+          line-height: 20px;
+          color: #42413D;
+          margin-left: 10px;
+        }
+      }
+
+      .store-information {
+        font-family: AvenirNext;
+        font-size: 13px;
+        line-height: 22px;
+        color: #777777;
+        border-top: 1px solid #D1D1D1;
+        padding-top: 16px;
+      }
+    }
+  }
+
+  #store-choose-dialog-title h6 {
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #000000;
+  }
+}
+
+.button-primary {
+  color: #1976d2 !important;
+  text-decoration: none !important;
+}
+
+#barfly-membership {
+  .preferred-store-container {
+    background-color: #F7F8F9;
+    border-top: 1px solid #D1D1D1;
+    padding: 36px 36px 47px 36px;
+    margin: 18px 0;
+
+    .selected-store {
+      font-style: italic;
+
+      .label {
+        color: #777777;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+
+      .value {
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+
+    .search-row {
+      padding-top: 20px;
+
+      button {
+        background: #54575A;
+        border-radius: 0;
+        color: #FFFFFF;
+        padding: 10px 30px;
+        font-size: 15px;
+        text-transform: none;
+
+        &:hover {
+          background-color: rgb(58, 60, 62);
+        }
+      }
+    }
+  }
+}
+
+
+

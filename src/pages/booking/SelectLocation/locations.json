@@ -1,0 +1,44 @@
+[
+    {
+        "lat": 37.758773,
+        "long": -122.486057,
+        "name": "Drybar Huntington Beach in Pacific City",
+        "address": "21016 Pacific Coast Hwy Suite D104 Huntington Beach, CA 92644",
+        "distance": "3.8 miles away"
+    },
+    {
+        "lat": 34.155834,
+        "long": -119.202789,
+        "name": "Port Hueneme",
+        "address": "21016 Pacific Coast Hwy Suite D104 Huntington Beach, CA 92645",
+        "distance": "6.8 miles away"
+    },
+    {
+        "lat": 33.193611,
+        "long": -117.241112,
+        "name": "Vista, CA,",
+        "address": "San Diego County, California, United States, CA 92081",
+        "distance": "5.8 miles away"
+    },
+    {
+        "lat": 37.746693,
+        "long": -122.459171,
+        "name": "Drybar Huntington Beach in Pacific City",
+        "address": "21016 Pacific Coast Hwy Suite D104 Huntington Beach, CA 92647",
+        "distance": "3.8 miles away"
+    },
+    {
+        "lat": 37.747100,
+        "long": -122.469900,
+        "name": "Drybar Huntington Beach in Pacific City",
+        "address": "21016 Pacific Coast Hwy Suite D104 Huntington Beach, CA 92649",
+        "distance": "3.8 miles away"
+    },
+    {
+        "lat": 37.745913,
+        "long": -122.479727,
+        "name": "Drybar Huntington Beach in Pacific City",
+        "address": "21016 Pacific Coast Hwy Suite D104 Huntington Beach, CA 926410",
+        "distance": "3.8 miles away"
+    }
+]

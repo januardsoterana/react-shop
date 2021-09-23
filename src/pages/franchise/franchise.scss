@@ -1,0 +1,17 @@
+.franchise__navigation {
+    font-size: .85rem;
+    background-color: white;
+    padding: 1rem .25rem;
+    margin: 1rem;
+    text-align: center;
+    z-index: 99;
+}
+
+.franchise__navigation.navigation__sticky {
+    margin: 0;
+    box-shadow: 0px 0px 20px 0px #888888;
+}
+
+.franchise__navigation__item {
+    padding: 0 .5rem;
+}

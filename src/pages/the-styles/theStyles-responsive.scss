@@ -1,0 +1,177 @@
+/** responsive.scss **/
+.thestyles-page.mw-1295{
+  @media only screen and (min-device-width: 320px) and (max-device-width: 360px) {
+
+  }
+  
+  @media only screen and (min-device-width: 361px) and (max-device-width: 480px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 520px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 521px) and (max-device-width: 640px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 641px) and (max-device-width: 767px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+  
+    @media (orientation: portrait) {
+  
+    }
+  }
+  
+  
+  @media only screen and (min-device-width: 993px) and (max-device-width: 1024px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1366px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 1367px) and (max-device-width: 1420px) {
+  
+  }
+  
+  @media only screen and (min-device-width: 1421px) and (max-device-width: 1600px) {
+  
+  }
+  
+  
+  /** common-responsive.scss **/
+  
+  @media only screen and (max-width: 500px) {
+  
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .book-appointment-section {
+      & > .row {
+        h1 {
+          font-size: 30px;
+          line-height: 36px;
+        }
+  
+        p {
+          font-size: 17px;
+          line-height: 25px;
+        }
+  
+        button {
+          color: #42413D;
+          padding: 20px;
+          margin: 0;
+          width: 90%;
+        }
+      }
+  
+      .slider-row {
+        filter: drop-shadow(0px 2px 50px rgba(235, 235, 235, 0.75));
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+  
+      .book-styling-section {
+        margin: 0 0 20px;
+        padding: 27px 0 36px;
+  
+        .text-section {
+          padding: 30px 20px 30px;
+  
+          .yellow-bar-title {
+            span.yellow-bar {
+              height: 17px;
+            }
+  
+            h3 {
+              font-size: 30px;
+              line-height: 30px;
+            }
+          }
+  
+          p {
+            font-size: 17px;
+            line-height: 25px;
+            margin: 0 0 30px;
+            padding: 10px;
+          }
+  
+          button {
+            margin: 0
+          }
+        }
+  
+        .video-section {
+          padding: 0;
+  
+          .video-wrapper {
+            padding: 10px;
+          }
+        }
+  
+        .slider-row {
+          .slick-slider {
+            .slick-arrow {
+              position: absolute;
+              z-index: 2;
+              top: calc(50% - 15px);
+              width: 30px;
+              height: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .book-appointment-section {
+      .text-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+  
+      .video-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+  
+      .slider-row {
+        .slick-slider {
+          .slick-arrow {
+            position: absolute;
+            z-index: 2;
+            top: calc(50% - 15px);
+            width: 30px;
+            height: 30px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1033px) {
+    .slider-row {
+      .slick-slider {
+        padding: 0 10px;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+  
+  }  
+}

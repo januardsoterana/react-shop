@@ -1,0 +1,211 @@
+/** responsive.scss **/
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 360px) {
+
+}
+
+@media only screen and (min-device-width: 361px) and (max-device-width: 480px) {
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 520px) {
+
+}
+
+@media only screen and (min-device-width: 521px) and (max-device-width: 640px) {
+
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 767px) {
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+  .dry-styling-page{  
+    .book-styling-section {
+      .slider-row {
+        text-align: center;
+        button.btn-yellow{
+          width: 378px;
+        }
+      }
+    }
+  }
+  .shop-all-kits{
+    text-align: center;
+    button {
+      width: 378px;
+    }
+  }
+  
+  @media (orientation: portrait) {
+
+  }
+}
+
+
+@media only screen and (min-device-width: 993px) and (max-device-width: 1024px) {
+
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1366px) {
+
+}
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1420px) {
+
+}
+
+@media only screen and (min-device-width: 1421px) and (max-device-width: 1600px) {
+
+}
+
+
+/** common-responsive.scss **/
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .dry-styling-page{  
+    .book-styling-section {
+      padding: 20px 0;
+      margin: 0 20px 20px;
+
+      .info-row{
+        flex-direction: column-reverse;
+        .text-section {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding: 20px;
+          margin-top: 20px;
+          background-color: #fff;
+  
+          h3{
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+          }
+          span{
+            margin: 0;
+          }
+          p{
+            margin: 10px 0 40px;
+            font-size: 17px;
+            line-height: 25px;
+          }
+          button{
+            margin: 0;
+          }
+        }
+        .video-section {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding: 0;
+          margin: 0;
+  
+          .video-wrapper{
+            padding: 15px;
+            background-color: #fff;
+          }
+        }
+      }
+
+      .style-item{
+        padding: 0;
+      }
+
+      .slider-row {
+        width: 100%;
+        margin-bottom: 30px;
+
+        .slick-slider {
+          padding: 0;
+  
+          .slick-list {
+            margin: 0;
+          }
+  
+          .slick-arrow {
+            display: none !important;
+          }
+  
+          .event-item {
+            .content {
+              padding: 0;
+  
+              .content-wrapper{
+                height: 520px;
+              }
+  
+              h6 {
+                font-size: 25px;
+                line-height: 29px;
+              }
+  
+              span {
+                font-size: 15px;
+                line-height: 23px;
+              }
+            }
+          }
+  
+          .slick-dots {
+            li {
+              display: inline-block;
+              button{
+                &::before{
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+
+        button.btn-yellow{
+          margin: 40px 0 0;
+          padding: 18px 0;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+    }
+    .banner-section{
+      .banner-image{
+        padding: 0 20px;
+        img{
+          
+        }
+      }
+    }
+    .shop-all-kits{
+      width: calc(100% - 40px);
+      margin: 30px auto 50px;
+      a{
+        width: 100%;
+      }
+      button {
+        margin: 0;
+        padding: 18px 0;
+      }
+    }
+  }  
+}
+
+@media only screen and (max-width: 1033px) {
+  
+}
+
+@media only screen and (max-width: 1500px) {
+
+}

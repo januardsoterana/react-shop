@@ -1,0 +1,14 @@
+.slick-arrow{
+    position: absolute;
+    z-index: 2;
+    top:calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    &.left{
+      left: -10px;
+    }
+    &.right{
+      right: -10px;
+    }
+}

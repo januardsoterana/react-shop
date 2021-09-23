@@ -1,0 +1,8 @@
+
+const HOME_CONTENT_LOAD = 'HOME/CONTENT_LOAD';
+const HOME_SET_CONTENT = 'HOME/SET_CONTENT';
+
+export default {
+    HOME_CONTENT_LOAD,
+    HOME_SET_CONTENT
+};

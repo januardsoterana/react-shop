@@ -1,0 +1,9 @@
+.container__structured {
+    margin: 0 1rem;
+    padding: 2rem 4rem;
+    background-color: #FFF;
+}
+
+.container__structured table {
+    width: 100%;
+}

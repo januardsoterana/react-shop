@@ -1,0 +1,125 @@
+@import "../../assets/css/media";
+
+#contact-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  overflow: scroll;
+  flex-wrap: wrap;
+  text-align: left;
+
+  .modal-container {
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.12);
+    background: #fff;
+    padding: 28px;
+    max-width: 749px;
+    box-sizing: content-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 749px;
+    box-sizing: border-box;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    .error-msg {
+      color: #FF0000;
+    }
+  }
+
+  .header {
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      .close-icon {
+        font-size: 45px;
+        color: #42413D;
+        margin: 5px 0;
+        width: 25px;
+        height: auto;
+      }
+    }
+  }
+
+  .header-text {
+    font-family: MrsEavesSmallCap;
+    border-bottom: 1px solid #D1D1D1;
+    line-height: 2.5;
+    font-size: 18px;
+  }
+
+  .form-control:not(textarea) {
+    font-family: "AvenirNextLTPro-Regular";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 200%;
+    color: #42413D;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #979797;;
+  }
+
+  textarea {
+    font-family: "AvenirNextLTPro-Regular";
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 200%;
+    color: #42413D;
+    padding: 30px 25px;
+  }
+
+  label {
+    font-family: "AvenirNextLTPro-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+    margin-bottom: 0;
+    margin-top: 20px;
+
+    &.emphas {
+      font-weight: 600;
+      line-height: 25px;
+      color: #42413D;
+    }
+  }
+
+  select.form-control {
+    margin-top: .5rem;
+  }
+
+  .form-control.focus,
+  .form-control:focus,
+  textarea.focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+

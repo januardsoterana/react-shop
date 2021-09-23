@@ -1,0 +1,58 @@
+[
+    {
+        "title": "CUSTOMER SUPPORT",
+        "help_copy_sub": "(877) 379-2279",
+        "help_copy_sub_text": "Monday-Friday, 9am-5pm PST",
+        "help_copy_sub_pro": "EMAIL US",
+        "help_copy_sub_second": " FIND A DRYBAR LOCATION",
+        "styleOverride": {
+            "help_copy_sub": {
+                "fontSize": "16px",
+                "fontWeight": "500",
+                "margin": "0",
+                "color": "#42413D",
+                "paddingRight": "30px"
+            },
+            "help_copy_sub_text": {
+                "fontSize": "11px"
+            }
+        }
+    },
+    {
+        "title": "HELP & INFO",
+        "help_copy_sub": "HELP & FAQs",
+        "help_copy_sub_pro": "CANCELLATION POLICY",
+        "help_copy_sub_second": "MEMBERSHIP POLICY",
+        "styleOverride": {
+            "help_copy_sub": {
+                "fontSize": "11px",
+                "color": "#42413D",
+                "paddingRight": "30px"
+            }
+        }
+    },
+    {
+        "title": "About",
+        "help_copy_sub": "Our Story",
+        "help_copy_sub_pro": " JOIN US",
+        "help_copy_sub_second": "PRESS & INQUIRIES",
+        "styleOverride": {
+            "help_copy_sub": {
+                "fontSize": "11px",
+                "color": "#42413D",
+                "paddingRight": "30px"
+            }
+        }
+    },
+    {
+        "title": "GIFT CARDS",
+        "help_copy_sub": "SEND A GIFT CARD",
+        "styleOverride": {
+            "help_copy_sub": {
+                "fontSize": "11px",
+                "color": "#42413D",
+                "paddingRight": "30px"
+            }
+        }
+    }
+]

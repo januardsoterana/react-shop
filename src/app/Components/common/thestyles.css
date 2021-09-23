@@ -1,0 +1,33 @@
+.thestyles {
+    display: flex;
+}
+
+.thestyles__container__card {
+    min-width: 20%;
+    max-width: 35%;
+    flex-grow: 1;
+}
+
+.thestyles__container__styles {
+    min-width: 60%;
+    max-width: 65%;
+    flex-grow: 1;
+}
+
+.thestyles__styles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thestyles__style {
+    min-width: 40%;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.card__body__thestyles {
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "date": "Sat Nov 21 2020 17:21:48",
+        "status": "upcoming",
+        "location": "Drybar Huntington Beach in Pacific City",
+        "services": [
+            {
+                "user": "Me",
+                "service": "Blowout"
+            }
+        ]
+    },
+    {
+        "date": "Sun Oct 21 2020 17:21:48",
+        "status": "past",
+        "location": "Drybar Huntington Beach in Pacific City",
+        "services": [
+            {
+                "user": "Me",
+                "service": "Blowout"
+            },
+            {
+                "user": "Guest 1",
+                "service": "Uptini"
+            },
+            {
+                "user": "Guest 2",
+                "service": "Blowout"
+            }
+        ]
+    },
+    {
+        "date": "Mon Sep 15 2020 17:21:48",
+        "status": "past",
+        "location": "Drybar Huntington Beach in Pacific City",
+        "services": [
+            {
+                "user": "Me",
+                "service": "Uptini"
+            }
+        ]
+    },
+    {
+        "date": "Thu Jul 15 2020 17:21:48",
+        "status": "past",
+        "location": "Drybar Huntington Beach in Pacific City",
+        "services": [
+            {
+                "user": "Me",
+                "service": "Blowout"
+            },
+            {
+                "user": "Guest 1",
+                "service": "Blowout"
+            }
+        ]
+    }
+]

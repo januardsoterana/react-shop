@@ -1,0 +1,58 @@
+.collection__ribbon {
+    position: relative;
+    border: 2px solid #ffdd30;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.card__title__ribbon {
+    position: absolute;
+    top: -2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.collection__ribbon .components {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection__ribbon .card__container {
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+}
+
+.collection__stacked {
+    margin: 1rem;
+}
+
+.collection__stacked .components {
+    display: flex;
+}
+
+.collection__stacked .card__container {
+    max-width: 33.333%;
+    min-width: 25%;
+    flex-grow: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.collection__fluid {
+    margin: 1rem 5rem;  
+}
+
+.collection__fluid .components {
+    display: flex;
+}
+
+.collection__fluid .card__container {
+    flex-basis: 50%;
+    max-width: 50%;
+    min-width: 35%;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 4rem;
+}
+

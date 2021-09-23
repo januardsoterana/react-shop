@@ -1,0 +1,13 @@
+.card__container__question_answer {
+    padding: 0 10rem;
+}
+
+.card__title__question_answer {
+    text-align: left;
+    cursor: pointer;
+}
+
+.card__description__question_answer {
+    background-color: #FFF;
+    padding: 2rem;
+}

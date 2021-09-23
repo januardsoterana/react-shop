@@ -1,0 +1,13 @@
+.react-autosuggest__input {
+    padding: 1rem;
+    width: 20rem;
+}
+
+.react-autosuggest__suggestions-container--open {
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #DDD;
+    padding: 1rem;
+    background-color: #FFF;
+    width: 20rem;
+}

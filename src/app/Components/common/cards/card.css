@@ -1,0 +1,331 @@
+.card__container .bold {
+    font-weight: bold;
+}
+
+.card__title,
+.card__subtitle {
+    text-align: center;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__social_instagram {
+    position: relative;
+    padding-left: 30px;
+}
+
+.card__social_instagram::before {
+    content: ' ';
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='19' viewBox='0 0 20 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1.27344' y='1' width='17' height='17' rx='4' stroke='%2342413D' stroke-width='2'/%3E%3Ccircle cx='9.77133' cy='9.5018' r='3.38462' stroke='%23454545' stroke-width='2'/%3E%3Ccircle cx='14.3696' cy='4.09615' r='1.09615' fill='%23454545'/%3E%3C/svg%3E%0A");
+    background-size: cover;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.card__container__base {
+  
+}
+
+.card__body__base {
+
+}
+
+.card__media__base {
+    
+}
+
+.card__container__text_top {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 2rem;
+}
+
+.card__body__text_top {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 10rem;
+}
+
+.card__description__text_top {
+    font-size: 1.25rem;
+}
+
+.card__container__portrait {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.card__title__portrait {
+}
+
+.card__container__hero,
+.card__container__marquee {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.card__body__hero,
+.card__body__marquee {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    width: 100vw;
+    text-align: center;
+}
+
+.card__title__hero,
+.card__title__marquee {
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.card__image__hero img, 
+.card__image__marquee img {
+
+}
+
+.card__container__marquee {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card__title__marquee {
+    max-width: 90%;
+    font-size: 3rem;
+    color: #5F5E5B;
+}
+
+.card__subtitle__marquee {   
+    font-size: 1.5rem;
+    color: #8A8C8E;
+}
+
+.card__actions__marquee .card__action__link {
+    padding: 1rem 10rem;
+}
+
+
+/* Text Left/Right */
+.card__container__text_left,
+.card__container__text_right {
+    display: flex;
+    align-items: center;
+}
+
+.card__container__text_left {
+    flex-direction: row-reverse;
+}
+
+.card__body__text_left,
+.card__body__text_right {
+    background-color: #FFF;
+    padding: 2rem;
+    margin: 0 1rem;
+    width: 25%;
+    max-width: 33%;
+    flex-grow: 1;
+}
+
+.card__media__text_left,
+.card__media__text_right {
+    width: 50%;
+    max-width: 66%;
+    flex-grow: 1;
+}
+
+/* Text Left/Right Wrapped */
+.card__container__text_left_wrapped,
+.card__container__text_right_wrapped {
+    display: flex;
+    background-color: #FFF;
+}
+
+.card__container__text_left_wrapped {
+    flex-direction: row-reverse;
+}
+
+.card__body__text_left_wrapped,
+.card__body__text_right_wrapped {
+    padding: 2rem;
+    margin: 0 1rem;
+    width: 40%;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.card__body__text_left_wrapped p:first-child,
+.card__body__text_right_wrapped p:first-child {
+    margin-top: 0;
+}
+
+.card__media__text_left_wrapped,
+.card__media__text_right_wrapped {
+    width: 40%;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+/* Text Left/Right Weighted */
+.card__container__text_left_weighted,
+.card__container__text_right_weighted {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem 0 3rem;
+}
+
+.card__container__text_left_weighted {
+    flex-direction: row-reverse;
+}
+
+.card__body__text_left_weighted,
+.card__body__text_right_weighted {
+    padding: 2rem;
+    margin: 0 1rem;
+    width: 60%;
+    max-width: 70%;
+    flex-grow: 1;
+}
+
+.card__description__text_left_weighted,
+.card__description__text_right_weighted {
+    text-align: center;
+}
+
+.card__media__text_left_weighted,
+.card__media__text_right_weighted {
+    width: 20%;
+    max-width: 30%;
+    flex-grow: 1;
+    padding: 0 2rem;
+}
+
+/* Text Columns */
+
+.card__container__text_columns {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 3rem;
+}
+
+.card__subtitle__text_columns {
+    margin-bottom: 3rem;
+}
+
+.card__description__text_columns {
+    padding: 2rem;
+    column-count: 2;
+    column-gap: 5rem;
+    column-rule: 1px solid #E6E6E6;
+    background-color: #FFF;
+}
+
+.card__description__text_columns p:first-child, 
+.card__description__text_columns ul:first-child {
+    margin-top: 0;
+}
+
+.card__media__text_columns {
+    padding: 0 2rem 2rem 2rem;
+    background-color: #FFF;
+}
+
+/* Color Overrides */
+.card__container__color__pink {
+    background-color: #F0D6D9;
+}
+
+.card__title__color__blue {
+    color: #abc7e6;
+}
+
+.card__title__color__grey {
+    color: #5F5E5B;
+}
+
+.card__title__color__blue.card__title__dropShadow {
+    text-shadow: 2px 2px #54575a;
+}
+
+.card__title__color__white {
+    color: #fff;
+}
+
+.card__title__color__white.card__title__dropShadow {
+    text-shadow: 2px 2px #54575a;
+}
+
+.card__title__size__small {
+    font-size: 1rem;
+}
+
+.card__title__size__medium {
+    font-size: 2rem;
+}
+
+.card__title__size__large {
+    font-size: 3rem;
+}
+
+.card__title__size__extra_large {
+    font-size: 5rem;
+}
+
+.action__wrapped {
+    cursor: pointer;
+}
+
+.card__actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card__action {
+    margin: 2rem;
+}
+
+.link__style__button__transparent,
+.link__style__button__outline,
+.link__style__button__light,
+.link__style__button__dark {
+    text-decoration: none;
+    padding: .75rem 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: .85rem;
+}
+
+.link__style__button__transparent {
+    border: 1px solid #42413D;
+    background-color: transparent;
+    color: #42413D;
+}
+
+.link__style__button__outline {
+    border: 1px solid #42413D;
+    background-color: #FFF;
+    color: #42413D;
+}
+
+.link__style__button__dark {
+    border: 1px solid #54575A;
+    background-color: #54575A;
+    color: #FFF;
+}
+
+.link__style__button__light {
+    border: 1px solid #FFDD30;
+    background-color: #FFDD30;
+    color: #54575A;
+}
+

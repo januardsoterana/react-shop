@@ -1,0 +1,25 @@
+.container__header {
+    position: relative;
+    height: 135px;
+    display: flex;
+}
+
+.container__logo {
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container__navigation,
+.container__utilities {
+    width: 40%;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.container__utilities {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+}

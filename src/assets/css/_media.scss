@@ -1,0 +1,69 @@
+//
+// Warning for maintainers: Keep in sync with WithMediaQuery.tsx
+//
+
+$mobileMediumWidth: 500px;
+$mobileMaxWidth:    767px;
+$tabletMaxWidth:    1023px;
+$desktopMinWith:    1280px;
+
+// mixin usage - insert inside a block:
+// @include mobile {styles...}
+
+
+// media-query mobile from 0 to 767px
+@mixin mobile {
+  @media (max-width: #{$mobileMaxWidth}) {
+    @content;
+  }
+}
+
+// media-query mobile from 0 to 500px
+@mixin mediumMobile {
+  @media (max-width: #{$mobileMediumWidth}) {
+    @content;
+  }
+}
+
+// media-query tablet from 768px to 1023px
+@mixin tablet {
+  @media (min-width: #{$mobileMaxWidth + 1px}) and (max-width: #{$tabletMaxWidth}) {
+    @content;
+  }
+}
+
+// media-query tablet from 0 to 1023px
+@mixin mobileAndTablet {
+  @media (max-width: #{$tabletMaxWidth}) {
+    @content;
+  }
+}
+
+// media-query tablet from 1024px to 1279px
+@mixin smallDesktop {
+  @media (min-width: #{$tabletMaxWidth + 1px}) and (max-width: #{$desktopMinWith - 1px}) {
+    @content;
+  }
+}
+
+// media-query tablet from 1024px
+@mixin desktop {
+  @media (min-width: #{$tabletMaxWidth + 1px}) {
+    @content;
+  }
+}
+
+// media-query tablet from 0 to 1279px
+@mixin fromMobileToSmallDesktop {
+  @media (max-width: #{$desktopMinWith - 1px}) {
+    @content;
+  }
+}
+
+// media-query tablet from 1280px
+@mixin largeDesktop {
+  @media (min-width: #{$desktopMinWith}) {
+    @content;
+  }
+}
+
